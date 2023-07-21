@@ -1,0 +1,53 @@
+﻿  pricing.cpp
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\helpers.h(8,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(33,29): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(47,78): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(198,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(235,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(247,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(275,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(287,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(345,62): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(347,49): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(354,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(366,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(422,62): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(448,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(460,74): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(550,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(556,68): warning C4244: 'argument': conversion from '_Ty' to 'const int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(556,52): warning C4244: 'argument': conversion from '_Ty' to 'const int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(579,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(608,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\algorithm(9107,56): error C2675: unary '++': '_OutIt' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              _OutIt=std::vector<int,std::allocator<int>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\algorithm(9127): message : see reference to function template instantiation '_OutIt std::set_union<_InIt1,_InIt2,_OutIt,std::less<void>>(_InIt1,_InIt1,_InIt2,_InIt2,_OutIt,_Pr)' being compiled
+          with
+          [
+              _OutIt=std::vector<int,std::allocator<int>>,
+              _InIt1=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              _InIt2=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              _Pr=std::less<void>
+          ]
+C:\Users\Udayan\source\repos\GMCVRPTWrun\GMCVRPTWrun\pricing.cpp(146,115): message : see reference to function template instantiation '_OutIt std::set_union<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::vector<_Ty,std::allocator<_Ty>>>(_InIt1,_InIt1,_InIt2,_InIt2,_OutIt)' being compiled
+          with
+          [
+              _OutIt=std::vector<int,std::allocator<int>>,
+              _Ty=int,
+              _InIt1=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              _InIt2=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\algorithm(9109,13): error C2100: illegal indirection
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\algorithm(9112,13): error C2100: illegal indirection
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\algorithm(9115,13): error C2100: illegal indirection
